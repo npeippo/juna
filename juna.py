@@ -31,7 +31,7 @@ def get_stations():
         return {}
 
 # --- PÄÄOHJELMA ---
-st.title("🚆 Junatutka")
+st.title("🚆 Keskinopeuslaskuri")
 st.write("Näe tarkka etäisyys ja vaadittu nopeus seuraavalle asemalle.")
 
 station_map = get_stations()
